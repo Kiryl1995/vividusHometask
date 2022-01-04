@@ -1,5 +1,5 @@
-Composite: When I compare the same page `$pageName` with visual checks by navigating in two ways
-When I click on element located `By.xpath(//a[text()='<pageName>'])`
+Composite: When I compare the same page $pageName with visual checks by navigating in two ways
+When I click on element located `By.xpath(//a[text()= '<pageName>'])`
 When I establish baseline with `<pageName>`
 When I click on element located `By.xpath(//a[text()='Profile and visibility'])`
 When I click on element located `By.xpath(//button[@data-test-id='header-member-menu-button'])`
