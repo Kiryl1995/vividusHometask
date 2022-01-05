@@ -7,3 +7,4 @@ When I wait until element located `By.xpath(//input[@name='username' and @value=
 Then field located `By.xpath(//input[@name='username' and @value='kirylshupenich'])` exists
 
 When I compare the same page Activity with visual checks by navigating in two ways
+When I compare the same page Settings with visual checks by navigating in two ways

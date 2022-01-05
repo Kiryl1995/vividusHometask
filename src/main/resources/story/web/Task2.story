@@ -38,11 +38,11 @@ When I wait until element located `By.xpath(//a[@title='Business'])` appears
 When I compare against baseline with `Templates`
 
 When I click on element located `By.xpath(//a[@aria-label='Back to home'])`
-When I wait until element located `By.xpath(//span[text()='Members'])` appears
-When I click on element located `By.xpath(//span[text()='Members'])`
-When I wait until element located `By.xpath(//div[text()='Invite your team'])` appears
+When I wait until element located `By.xpath(//li//span[text()='Members'])` appears
+When I click on element located `By.xpath(//li//span[text()='Members'])`
+When I wait until element located `By.xpath(//span[text()='Invite Workspace members'])` appears
 When I establish baseline with `Members`
 When I click on element located `By.xpath(//a[text()='Boards'])`
 When I click on element located `By.xpath(//a[text()='Members'])`
-When I wait until element located `By.xpath(//div[text()='Invite your team'])` appears
+When I wait until element located `By.xpath(//span[text()='Invite Workspace members'])` appears
 When I compare against baseline with `Members`
